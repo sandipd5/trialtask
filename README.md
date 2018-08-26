@@ -3,5 +3,4 @@ step 2:composer install
 step 3:php artisan key:generate
 step 4:rename .env.example to .env and setup database,username,password
 step 5:php artisan serve
-step 6:generated csv is saved ins 
-       ide storage/csv/text.csv
+step 6:generated csv file is saved inside storage/csv/text.csv
