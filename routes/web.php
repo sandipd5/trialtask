@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('form');
 });
-
+Route::post('/post','FormController@getData');
+Route::get('/getcsvdata', 'FormController@getCsv');
