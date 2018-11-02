@@ -31,12 +31,12 @@
                 <td>{{$data['education']}}</td>
                 <td>{{$data['contact']}}</td>
             </tbody>
-        </table>    
+        </table>
     </div>
 
 
-        
-    
+
+
 
 </body>
 </html>

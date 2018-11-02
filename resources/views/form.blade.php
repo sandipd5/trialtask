@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>demo</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-        <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+  <head>
+      <title>demo</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+          <!-- Google Fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-</head>
+  </head>
 
 <body>
 <div class="container">
@@ -25,7 +25,7 @@
                  <div class="cols-sm-10">
                                     <div class="input-group">
                                         <span class="input-group-addon"></span>
-                                      <input type='text' name='name' id="text" class="form-control"  placeholder="Enter your Name" required>   
+                                      <input type='text' name='name' id="text" class="form-control"  placeholder="Enter your Name" required>
                                     </div>
                     </div>
                </div>
@@ -34,19 +34,21 @@
                  <div class="cols-sm-10">
                                     <div class="input-group">
                                         <span class="input-group-addon"></span>
-                                      <input type='email' name='email' id='email' class="form-control" placeholder="Enter your Email"required> 
+                                      <input type='email' name='email' id='email' class="form-control" placeholder="Enter your Email"required>
                                     </div>
                     </div>
                </div>
                <div class="form-group">
                  <label for="name" class="cols-sm-2 control-label">Your Gender</label>
-                 <div class="cols-sm-10">  
+                 <div class="cols-sm-10">
                   <select name='gender' id="gender" required>
+                      <option value="">select one</option>
                       <option value="male">Male</option>
                       <option value="female">Female</option>
-                    </select>                 
-                      
-                                    
+                      <option value="others">Others</option>
+                    </select>
+
+
                 </div>
                </div>
                <div class="form-group">
@@ -285,24 +287,27 @@
                                      <input type='text' name='education' id="education" class="form-control"  placeholder="Enter your educational qualificaton" required>
                                     </div>
                     </div>
-               </div> 
+               </div>
                <div class="form-group">
                  <label for="name" class="cols-sm-2 control-label">Prefered mode of contact</label>
                  <div class="cols-sm-10">
                      <select name='contact' id="contact" required>
+                      <option value="">select one</option>
                       <option value="Email">Email</option>
                       <option value="PhoneNo">Phone no.</option>
                        <option value="None">None</option>
-                    </select>                
+                    </select>
                     </div>
-               </div> 
-               <div class="form-group">
-                  <button type='submit' name='submit' value='Submit' class="btn btn-default">Submit</button> 
                </div>
+               <div class="form-group">
+               <button type='submit' name='submit' value='Submit' class="btn btn-default">Submit</button>
+               </div>
+
              </form>
-           </div> 
+
+           </div>
       </div>
- </div> 
+ </div>
 </body>
 </html>
 
