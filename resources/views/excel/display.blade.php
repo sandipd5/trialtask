@@ -4,13 +4,13 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-       <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script> 
+       <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
        <link href=" https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
       <body>
          <div class="container">
-              
+
                <h2>Imported data</h2>
                <div align="center">
                <button type="button" name="add" id="add_data" class="btn btn-success btn-lg">Add New Data</button>
@@ -27,7 +27,7 @@
                         <th>Action</th>
                   </thead>
                </table>
-         </div>      
+         </div>
          <div id="studentModal" class="modal fade" role="dialog">
                  <div class="modal-dialog">
                     <div class="modal-content">
@@ -73,8 +73,8 @@
                     </div>
                   </div>
                  </div>
-               </div>  
-         
+               </div>
+
        <script>
             $(document).ready(function() {
                   $('#table').DataTable({

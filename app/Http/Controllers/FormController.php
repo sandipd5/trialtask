@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\support\Collection;
 use Excel;
 use Illuminate\Http\Request;
 
@@ -32,5 +33,23 @@ class FormController {
 		//dd($data);
 		//var_dump($data);
 		return view('show')->withData($data);
+	}
+
+	public function demo()
+	{
+		$sites = collect([
+		'http://google.com',
+        'http://plus.google.com',
+        'http://facebook.com',
+        'http://twitter.com',
+        'http://search.twitter.com',
+        'http://apple.com'
+		])->map(function($site){
+			return str_replace('http://','https://www.',$site);
+			})->reject(function($sit){
+				return str_contains($sit,'facebook')==true;
+			});
+		dd($sites);
+
 	}
 }

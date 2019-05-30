@@ -32,3 +32,5 @@ Route::get('displaydata','ExcelController@displayData');
 Route::get('getdata','ExcelController@getData');
 
 Route::post('postdata', 'ExcelController@postdata')->name('ajaxdata.postdata');
+
+Route::get('demo','FormController@demo');
